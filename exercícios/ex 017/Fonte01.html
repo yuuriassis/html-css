@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 15px ;
+            font-weight: bold;
+            /* peso = weight, altura = height, largura = width. */
+            font-style: oblique;
+            /* lighter, normal, bold, bolder */
+        }
+        h1 {
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand font:
+            - font-family -> font-weight -> font-size -> font-family
+            pode substituir por: font: italic bolder 3em 'Work Sans', sans-serif; */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+       
+    </style>
+
+</head>
+<body></body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dolores modi iste quasi optio, dignissimos consequuntur quaerat maiores nisi cumque sequi culpa minima tempora quo dolor, atque corporis, voluptatem laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet sequi, delectus facilis dignissimos illum. Sunt laboriosam praesentium corporis non dolores natus similique dolorem nostrum tenetur delectus. Quo, eius non.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur adipisci, magnam consectetur amet temporibus officiis culpa suscipit dolore ab libero voluptas tempora sequi earum placeat dolor architecto esse aperiam?</p>
+    
+</body>
+</html>
